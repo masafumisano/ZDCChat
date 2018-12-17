@@ -1,0 +1,17 @@
+framework module ZDCChatAPI {
+    umbrella header "ZDCChatAPI.h"
+    export *
+    module * { export * }
+    link framework "MobileCoreServices"
+    header "ZDCAPIConfig.h"
+    header "ZDCChatAPIEnums.h"
+    header "ZDCChatAgent.h"
+    header "ZDCChatAttachment.h"
+    header "ZDCChatEvent.h"
+    header "ZDCChatFile.h"
+    header "ZDCChatProfile.h"
+    header "ZDCChatUpload.h"
+    header "ZDCLog.h"
+    header "ZDCProgressMonitor.h"
+    header "ZDCVisitorInfo.h"
+}

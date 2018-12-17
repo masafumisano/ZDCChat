@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		210991012174D3AA00A90EE7 /* ZDCChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDCChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210991052174D3AA00A90EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210991112174D58700A90EE7 /* ZDCChatAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDCChatAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210991142174D58700A90EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2109911B2174D74800A90EE7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2109911C2174D75400A90EE7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		210990F72174D3AA00A90EE7 = {
+			isa = PBXGroup;
+			children = (
+				210991032174D3AA00A90EE7 /* ZDCChat */,
+				210991122174D58700A90EE7 /* ZDCChatAPI */,
+				210991022174D3AA00A90EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210991022174D3AA00A90EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210991012174D3AA00A90EE7 /* ZDCChat.framework */,
+				210991112174D58700A90EE7 /* ZDCChatAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210991032174D3AA00A90EE7 /* ZDCChat */ = {
+			isa = PBXGroup;
+			children = (
+				210991052174D3AA00A90EE7 /* Info.plist */,
+				2109911B2174D74800A90EE7 /* module.modulemap */,
+			);
+			path = ZDCChat;
+			sourceTree = "<group>";
+		};
+		210991122174D58700A90EE7 /* ZDCChatAPI */ = {
+			isa = PBXGroup;
+			children = (
+				210991142174D58700A90EE7 /* Info.plist */,
+				2109911C2174D75400A90EE7 /* module.modulemap */,
+			);
+			path = ZDCChatAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210991002174D3AA00A90EE7 /* ZDCChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210991092174D3AA00A90EE7 /* Build configuration list for PBXNativeTarget "ZDCChat" */;
+			buildPhases = (
+				210991192174D66200A90EE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDCChat;
+			productName = ZDCChat;
+			productReference = 210991012174D3AA00A90EE7 /* ZDCChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		210991102174D58700A90EE7 /* ZDCChatAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210991162174D58700A90EE7 /* Build configuration list for PBXNativeTarget "ZDCChatAPI" */;
+			buildPhases = (
+				2109911A2174D66600A90EE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDCChatAPI;
+			productName = ZDCChatAPI;
+			productReference = 210991112174D58700A90EE7 /* ZDCChatAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210990F82174D3AA00A90EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Yappli, Inc.";
+				TargetAttributes = {
+					210991002174D3AA00A90EE7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					210991102174D58700A90EE7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 210990FB2174D3AA00A90EE7 /* Build configuration list for PBXProject "ZDCChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 210990F72174D3AA00A90EE7;
+			productRefGroup = 210991022174D3AA00A90EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210991002174D3AA00A90EE7 /* ZDCChat */,
+				210991102174D58700A90EE7 /* ZDCChatAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		210991192174D66200A90EE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BASE_NAME=zendesk_sdk_chat_ios-${CURRENT_PROJECT_VERSION}\nMODULES_FOLDER_PATH=${EXECUTABLE_FOLDER_PATH}/Modules\ncurl -fsL https://github.com/zendesk/zendesk_sdk_chat_ios/archive/${CURRENT_PROJECT_VERSION}.zip | tar -xf - -C ${PROJECT_TEMP_ROOT}\nmkdir -p ${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH} && cp ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChat.framework/Headers/*.h $_\nmkdir -p ${TARGET_BUILD_DIR}/${MODULES_FOLDER_PATH} && cp ${PROJECT_DIR}/${TARGET_NAME}/module.modulemap $_\nmkdir -p ${TARGET_BUILD_DIR}/${PRIVATE_HEADERS_FOLDER_PATH} && cp ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChat.framework/PrivateHeaders/*.h $_\nlipo -extract $( echo ${ARCHS} | sed -e 's/ / -extract /g' ) ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChat.framework/ZDCChat -o ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/${TARGET_NAME}\nchmod 644 ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/${TARGET_NAME}\ncp -r ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChat.bundle ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/\ncp -r ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChatStrings.bundle ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/\nrm -rf ${PROJECT_TEMP_ROOT}/${BASE_NAME}\n";
+		};
+		2109911A2174D66600A90EE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BASE_NAME=zendesk_sdk_chat_ios-${CURRENT_PROJECT_VERSION}\nMODULES_FOLDER_PATH=${EXECUTABLE_FOLDER_PATH}/Modules\ncurl -fsL https://github.com/zendesk/zendesk_sdk_chat_ios/archive/${CURRENT_PROJECT_VERSION}.zip | tar -xf - -C ${PROJECT_TEMP_ROOT}\nmkdir -p ${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH} && cp ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChatAPI.framework/Headers/*.h $_\nmkdir -p ${TARGET_BUILD_DIR}/${MODULES_FOLDER_PATH} && cp ${PROJECT_DIR}/${TARGET_NAME}/module.modulemap $_\nmkdir -p ${TARGET_BUILD_DIR}/${PRIVATE_HEADERS_FOLDER_PATH} && cp ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChatAPI.framework/PrivateHeaders/*.h $_\nlipo -extract $( echo ${ARCHS} | sed -e 's/ / -extract /g' ) ${PROJECT_TEMP_ROOT}/${BASE_NAME}/ZDCChatAPI.framework/ZDCChatAPI -o ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/${TARGET_NAME}\nchmod 644 ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/${TARGET_NAME}\nrm -rf ${PROJECT_TEMP_ROOT}/${BASE_NAME}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		210991072174D3AA00A90EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210991082174D3AA00A90EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2109910A2174D3AA00A90EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDCChat/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.ZDCChat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Debug;
+		};
+		2109910B2174D3AA00A90EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDCChat/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.ZDCChat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		210991172174D58700A90EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDCChatAPI/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.ZDCChatAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Debug;
+		};
+		210991182174D58700A90EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZDCChatAPI/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendesk.ZDCChatAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210990FB2174D3AA00A90EE7 /* Build configuration list for PBXProject "ZDCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210991072174D3AA00A90EE7 /* Debug */,
+				210991082174D3AA00A90EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210991092174D3AA00A90EE7 /* Build configuration list for PBXNativeTarget "ZDCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2109910A2174D3AA00A90EE7 /* Debug */,
+				2109910B2174D3AA00A90EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210991162174D58700A90EE7 /* Build configuration list for PBXNativeTarget "ZDCChatAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210991172174D58700A90EE7 /* Debug */,
+				210991182174D58700A90EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210990F82174D3AA00A90EE7 /* Project object */;
+}
